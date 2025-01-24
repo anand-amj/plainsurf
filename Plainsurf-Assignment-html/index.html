@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Link to Font Awesome CDN (Free Version) -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="../Plainsurf-Assignment-html/media/css/style.css" />
+
+  <title>Home</title>
+</head>
+
+<body>
+  <!-- Header Start-->
+  <header class="hide-header">
+    <div class="pos-rel" id="menuToggle">
+      <a href="#" class="hamburger">
+        <span></span>
+        <span></span>
+      </a>
+      <svg id="liveVertLeft">
+        <path class="linePathVertical" d="M 0 0 V 0" stroke="rgba(255, 255, 255 ,0.5)" fill="transparent"
+          stroke-width="2" />
+      </svg>
+    </div>
+    <!-- <h1 class="logo-text"><a href="#">vanaha</a></h1> -->
+    <div class="pos-rel">
+      <svg id="liveVertRight">
+        <path class="linePathVertical" d="M 0 0 V 0" stroke="rgba(255, 255, 255 ,0.5)" fill="transparent"
+          stroke-width="2" />
+      </svg>
+      <a href="javascript:void(0)" class="right-link"><span class="hide">Find a store</span>
+        <span class="fa-solid fa-location-dot map-icon" aria-hidden="true"></span></a>
+    </div>
+    <svg class="header-svg">
+      <path id="linePath" d="M 0 0 H 10" stroke="rgba(255, 255, 255 ,0.5)" fill="transparent" stroke-width="2" />
+    </svg>
+  </header>
+  <!-- Off-canvas menu -->
+  <div class="off-canvas" id="offCanvasMenu">
+    <button class="close-btn" id="closeBtn">&times;</button>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- <div class="line-head"></div> -->
+  <!-- Header End-->
+  <div id="text-container"></div>
+
+  <section class="banner">
+    <video id="bgVideo" src="../Plainsurf-Assignment-html/media/video/your-video.mp4" autoplay muted loop></video>
+    <section class="product-box">
+      <div class="product-head">Artisanal Forest Gin</div>
+      <img class="pro-img" src="../Plainsurf-Assignment-html/media/images/pro1.png" />
+    </section>
+
+    <div class="left-banner-text hide">
+      <span>Sattari</span>
+      <span style="font-size: 2rem">.</span>
+      <span>India</span>
+    </div>
+    <div class="right-banner-text hide">
+      <span>15.5959°N</span>
+      <span style="font-size: 2rem">.</span>
+      <span>74.0594°E</span>
+    </div>
+  </section>
+  <div class="hideSection">
+    <section class="discover-main">
+      <img class="arrow-icon " src="../Plainsurf-Assignment-html/media/images/arrow-up-icon.png" />
+      <img class="compass-img" src="../Plainsurf-Assignment-html/media/images/compass.png" width="100" />
+      <div class="one-discover hide">
+        <img class="discover-img-horizontal" src="../Plainsurf-Assignment-html/media/images/one-small.jpg"
+          width="300" />
+      </div>
+      <div class="two-discover">
+        <div class="discover-text">Handcrafted with 24 forest botanicals</div>
+        <img class="discover-img-vertical" src="../Plainsurf-Assignment-html/media/images/two-small.jpg" width="300" />
+        <a href="javascipt:void(0)" class="button-link">Discover</a>
+      </div>
+      <div class="three-discover hide">
+        <img class="discover-img-horizontal" src="../Plainsurf-Assignment-html/media/images/three-small.jpg"
+          width="250" />
+      </div>
+    </section>
+
+    <section class="blend-artist">
+      <div class="left-art">
+        <img src="../Plainsurf-Assignment-html/media/images/art-left-img.png" />
+      </div>
+      <div class="right-art">
+        <div class="blend-title">A Blend of artistery and innovation</div>
+
+        <img src="../Plainsurf-Assignment-html/media/images/blend-2.jpg" />
+
+        <ul>
+          <li>Vapur Infused</li>
+          <li>Cold Vaccum Distilled Copper Pot</li>
+          <li>5 Step Distilltion Process</li>
+        </ul>
+        <a href="javascipt:void(0)" class="button-link">Read more</a>
+      </div>
+    </section>
+
+    <section class="earth-woody">
+      <div class="left-art">
+        <div class="blend-title">An earthy, woody & aromatic sipping gin</div>
+        <div class="center-img hide">
+          <img src="../Plainsurf-Assignment-html/media/images/woody-small.png" />
+        </div>
+        <div class="listin-aromatic">
+          <div class="title-inn">Color</div>
+          <div class="title-body">Clear</div>
+        </div>
+        <div class="listin-aromatic">
+          <div class="title-inn">Nose</div>
+          <div class="title-body">
+            Torem ipsum dolor sit amet, consectetur adipiscing elit.
+          </div>
+        </div>
+        <div class="listin-aromatic">
+          <div class="title-inn">Palate</div>
+          <div class="title-body">
+            Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+            vulputate libero et velit interdum, ac aliquet odio mattis.
+          </div>
+        </div>
+        <div class="listin-aromatic">
+          <div class="title-inn">Finish</div>
+          <div class="title-body">
+            Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+            vulputate bero et velit interdum, ac aliquet odio mattis.
+          </div>
+        </div>
+      </div>
+      <div class="right-art">
+        <img src="../Plainsurf-Assignment-html/media/images/woody-large-img.png" />
+      </div>
+    </section>
+    <section class="revelery-main">
+      <div class="blend-title">Revelry Distillery</div>
+      <p>
+        Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+        vulputate libero et velit interdum, ac aliquet odio mattis. Torem
+        ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate
+        libero et velit interdum, ac aliquet odio mattis.
+      </p>
+      <a href="javascipt:void(0)" class="button-link">The Brand Story</a>
+    </section>
+
+    <section class="image-gallary">
+      <div class="one-gallary hide">
+        <img src="../Plainsurf-Assignment-html/media/images/gally-1.png" alt="Image 1" />
+      </div>
+      <div class="two-gallary">
+        <img src="../Plainsurf-Assignment-html/media/images/gally-2.png" alt="Image 2" />
+      </div>
+      <div class="three-gallary">
+        <img src="../Plainsurf-Assignment-html/media/images/gally-3.png" alt="Image 3" />
+      </div>
+    </section>
+    <section class="testiomonial">
+      <div class="comaa">
+        <img src="../Plainsurf-Assignment-html/media/images/comma.png" alt="comma image" />
+      </div>
+      <p>Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+        vulputate bero et velit interdum, ac aliquet odio mattis.Torem ipsum dolor sit amet, consectetur adipiscing
+        elit. Nunc
+        Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+        vulputate bero et velit interdum, ac aliquet odio mattis.</p>
+      <div class="img-testi-container">
+        <img src="../Plainsurf-Assignment-html/media/images/testi-img.png" alt="testimonal image" />
+      </div>
+      <div class="client-name">
+        Vanitha Jaiin </br>
+        Co-founder | Revelary Distillery
+      </div>
+    </section>
+
+    <section class="toast-container">
+      <img src="../Plainsurf-Assignment-html/media/images/arrow2.png" alt="arrrow2 image" class="arrow-twoicon" />
+      <div class="side-one">
+        <div class="side-one-inner">
+          <div class="blend-title">Toast to Any <br>Occasion</div>
+          <div class="title-body">
+            Torem ipsum dolor sit amet, consectetur adipiscing elit.
+            Torem ipsum dolor sit amet, consectetur adipiscing elit.Torem ipsum dolor sit amet, consectetur adipiscing
+            elit.
+          </div>
+          <a href="javascipt:void(0)" class="button-link">Discover</a>
+        </div>
+      </div>
+      <div class="side-two">
+
+        <div class="card-container">
+          <img src="../Plainsurf-Assignment-html/media/images/card-img.png" alt="card image" />
+          <span class="card-title">loruem ipsuem title</span>
+        </div>
+
+        <div class="card-container cardtwo">
+          <img src="../Plainsurf-Assignment-html/media/images/card-img.png" alt="card image" />
+          <span class="card-title">loruem ipsuem title</span>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="first-footer">
+        <div class="text-one">Instagram</div>
+        <img src="../Plainsurf-Assignment-html/media/images/footer-logo.png" alt="footer logo" />
+        <div class="text-one">Youtube</div>
+      </div>
+      <div class="sign-form">
+        <div class="card-title">Sign up to our News letter</div>
+        <div class="form-box-main">
+          <div class="form-box">
+            <input type="text" placeholder="Name">
+          </div>
+          <div class="form-box form-boxemail">
+            <input type="email" placeholder="email id">
+          </div>
+
+        </div>
+        <button class="button-link" type="submit">Submit</button>
+
+      </div>
+      <div class="footer-link">
+        <ul>
+          <li>
+            <a href="#">The Brand Story</a>
+          </li>
+          <li>
+            <a href="#">The service</a>
+          </li>
+          <li>
+            <a href="#">The Botnical Trail</a>
+          </li>
+          <li>
+            <a href="#">The process</a>
+          </li>
+          <li>
+            <a href="#">contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-link foot2">
+        <ul>
+
+          <li>
+            <a href="#">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="#" style="text-transform: capitalize;">2024 Revelary Distillery All Right Reserved. </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="left-banner-text hide">
+        <span>Sattari</span>
+        <span style="font-size: 2rem">.</span>
+        <span>India</span>
+      </div>
+      <div class="right-banner-text hide">
+        <span>15.5959°N</span>
+        <span style="font-size: 2rem">.</span>
+        <span>74.0594°E</span>
+      </div>
+
+    </section>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.0/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.0/ScrollTrigger.min.js"></script>
+  <script src="../Plainsurf-Assignment-html/media/js/main.js"></script>
+</body>
+
+</html>
